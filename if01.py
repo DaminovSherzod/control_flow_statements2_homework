@@ -9,11 +9,10 @@ def main(a,b,c):
         int: return answer.
     """
     if a<b:
-        print(b)
+        return b
     if b<c: 
-        print(c)
+        return c
     if c<a:
-        print(a)    
-    return a<b, b<c, c<a
+        return a    
     
 print(main(9,6,5)) 
