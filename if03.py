@@ -13,11 +13,5 @@ def main(a,b,c):
     if b<c and c<a:
         return c
     if b<a and a<c:
-        return a 
-    if a<c and c<b:
-        return c    
-    if c<a and a<b:
-        return a    
-    if c<b and b<a:
-        return b    
+        return a   
 print(main(1,3,2))        
