@@ -14,5 +14,4 @@ def main(a,b,c):
         return c
     if c<a:
         return a    
-    
 print(main(9,6,5)) 
