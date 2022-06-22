@@ -14,5 +14,5 @@ def main(a,b,c):
         print(c)
     if c<a:
         print(a)    
-    return 
+    return a<b, b<c, c<a
 print(main(9,6,5)) 
