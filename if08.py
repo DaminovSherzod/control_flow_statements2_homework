@@ -28,4 +28,4 @@ def main(number):
         return "Saturday"
     if number==7:
         return "Sunday"     
-print(main(8))                          
+print(main(6))                          
