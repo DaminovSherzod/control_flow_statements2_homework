@@ -8,16 +8,16 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    if a<b and b<c and a<c:
+    if a<=b and b<=c and a<=c:
         return b
-    if a<c and c<b and a<b:
+    if a<=c and c<=b and a<=b:
         return c
-    if c<a and a<b and c<b:
+    if c<=a and a<=b and c<=b:
         return a   
-    if b<c and c<a and b<a:
+    if b<=c and c<=a and b<=a:
         return c    
-    if b<a and a<c and b<c:
+    if b<=a and a<=c and b<=c:
         return a    
-    if c<b and b<a and c<a:
+    if c<=b and b<=a and c<=a:
         return b      
 print(main(3,1,2))        
